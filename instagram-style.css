@@ -1,0 +1,91 @@
+body {
+    font-family: Helvetica;
+    
+    font-size: 13px;
+    background-color: rgb(250, 250, 250);
+}
+p {
+    padding: 20px 40px;
+}
+#mp-img {
+    clear: right;
+
+    position: relative;
+    float: left;
+    z-index: 1;
+
+}
+.login-box {
+
+    float: right;
+    position: static;
+    
+    border-radius: 4px;
+    text-align: center;
+    height: 580px;
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid rgb(209, 209, 209);
+    color: gray;
+    background-color: white;
+    background-size: cover;
+    z-index: 10;
+
+
+}
+.login-box h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    padding: 0px;
+}
+
+ .login-box input {
+
+    height: 30px;
+    width: 250px;
+    background-color: rgb(250, 250, 250);
+    border: 1px inset  rgb(209, 209, 209);
+    border-radius: 4px;
+    font-size: 11px;
+    margin-top: 5px;
+}
+.sign-up {
+    float: right;
+    border-radius: 4px;
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(209, 209, 209);
+    color: gray;
+    background-color: white;
+    background-size: cover;
+    z-index: 10;
+    padding-bottom: 20px; margin-bottom: 80px"
+}
+#fbbutton{
+    padding: 0;
+    margin-bottom: 1px;
+    border-radius: 4px;
+    height: 30px;
+    width: 250px;
+    border: 0;
+    background-color: dodgerblue;    
+    color: white;
+}
+#buttons {
+    font-size: 13px;
+
+    margin-top: 17px;
+    border: 0;
+    background-color: dodgerblue;    
+    color: white;
+}
+#inst-print {
+    color: black;
+    font-size: 50px;
+    font-family:   serif;
+}
