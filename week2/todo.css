@@ -1,0 +1,104 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.header {
+    background-color: darkslategray;
+    position: static;
+    color: whitesmoke;
+    height: 45px;
+    width: 10000px;
+    margin-top: -20px;
+    margin-left: -10px;
+    padding-left: 60px;
+    padding-top: 10px;
+    border: oldlace solid 0;
+}
+.main{
+    text-align: center;
+}
+.list-box{
+    display: inline-block;
+    align-self: left;
+    align-items: baseline;
+    text-align: center;
+    -ms-flex-align:  center;
+    margin: 50px ;
+    padding: 20px; 
+
+    width: 500px;
+    border: 2px solid gray;
+    align-self: center;
+}
+form {
+    display: inline-block;
+}
+
+.items{
+    align-content: center;
+    height: 50px;
+    width: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 2px;
+    background-color: white;
+}
+#ims {
+    margin-top: 30px;
+}
+
+#ims span {
+    padding-bottom: 15px; 
+}
+
+.adder input{
+    padding: 10px;
+    height: 20px;
+    width: 350px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.adder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 20px;
+}
+.adder button {
+    background-color: darkcyan;
+    margin-top: -5px;
+    color: aliceblue;
+    border: 0ch;
+    border-radius: 3px;
+    width: 60px;
+    height: 42px;
+}
+.list {
+    text-align: left;
+
+}
+.list input {
+    height: 40px;
+    width: 40px;
+    color: cornflowerblue;
+    vertical-align: middle;
+    padding-right: 40px;
+}
+
+.list label {
+    font-size: 20px;
+}
+
+#ims button{
+    font-size: 25px;
+    color:  rgb(192, 58, 34);
+    background-color: white;
+    border: 2px solid  rgb(192, 58, 34);
+    border-radius: 2px;
+    float: right;
+    height: 45px;
+    width: 45px;
+    margin: 3px;  
+}
+#ims button:hover {
+    border: 0;
+    background-color: rgb(192, 58, 34); 
+    color: white;
+  }
