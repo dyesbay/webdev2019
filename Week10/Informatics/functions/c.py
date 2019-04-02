@@ -1,5 +1,5 @@
-i=1
-n=int(input())
-while i<=n:
-        print(i)
-        i*=2
+def xor (a,b):
+    return int(a!=b)
+l=str.split(input())
+a,b=float(l[0]),int(l[1])
+print(xor(a,b))
